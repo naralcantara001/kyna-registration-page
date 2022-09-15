@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/kyna-registration-page/static/css/main.57ea19c7.css",
-    "main.js": "/kyna-registration-page/static/js/main.f5013d3e.js",
+    "main.css": "/kyna-registration-page/static/css/main.60413a7f.css",
+    "main.js": "/kyna-registration-page/static/js/main.7108571f.js",
     "static/media/image.png": "/kyna-registration-page/static/media/image.9f40ad16486816f10f10.png",
     "index.html": "/kyna-registration-page/index.html",
-    "main.57ea19c7.css.map": "/kyna-registration-page/static/css/main.57ea19c7.css.map",
-    "main.f5013d3e.js.map": "/kyna-registration-page/static/js/main.f5013d3e.js.map"
+    "main.60413a7f.css.map": "/kyna-registration-page/static/css/main.60413a7f.css.map",
+    "main.7108571f.js.map": "/kyna-registration-page/static/js/main.7108571f.js.map"
   },
   "entrypoints": [
-    "static/css/main.57ea19c7.css",
-    "static/js/main.f5013d3e.js"
+    "static/css/main.60413a7f.css",
+    "static/js/main.7108571f.js"
   ]
 }
