@@ -1,7 +1,8 @@
-import React from 'react'
+import React, {useState} from 'react'
 import eye from './eye-off.png';
 
 export default function SignUp() {
+  const [show, setShow] = useState(true)
   return (
     <div className='signup'>
 
@@ -30,13 +31,25 @@ export default function SignUp() {
         {/* email */}
         <div className='signup-inputs'>
           <span className='signup-email'>
-          <label>What's your email address?</label>
-          <label className='signup-phone'>Sign up with phone</label>
+          <label>What's your {show?'email address?': 'phone number?'}</label>
+
+          <label onClick={()=>setShow(!show)} className='signup-phone'>{show?'Sign up with phone number': 'Sign up with email'}</label>
           </span>
-          <input className='input-email'
+
+          {show?<input className='input-email'
             type="email"
             placeholder='Email address'
+          />:
+          <div className='signup-phone-number'>
+            <select>
+                <option>PH +63</option>
+            </select>
+            <input className='input-email'
+            type="number"
+            placeholder='Phone number' 
           />
+          </div>
+          }
         </div>
 
         {/* select - dropdown - birthday */}

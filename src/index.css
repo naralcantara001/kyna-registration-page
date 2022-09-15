@@ -8,7 +8,7 @@
 
 .image {
   align-self: center;
-  width: 70%;
+  width: 80%;
   margin-top: 22px;
 }
 
@@ -33,7 +33,7 @@
   justify-content: center;
   flex-direction: column;
   background-color: #FFFFFF;
-  width: 50%;
+  width: 60%;
 }
 .signup .signup-headline {
   margin-bottom: 35px;
@@ -67,6 +67,7 @@
 }
 .signup input, .signup select {
   font-weight: 500;
+  color: #9A9A9A;
   font-size: 12px;
   padding: 14px 16px;
   border: 1px solid rgba(200, 200, 200, 0.24);
@@ -78,9 +79,15 @@
   justify-content: space-between;
 }
 .signup .signup-email .signup-phone {
+  cursor: pointer;
   color: #F1B104;
   font-weight: 500;
   font-size: 12px;
+}
+.signup .signup-phone-number {
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+  gap: 12px;
 }
 .signup .signup-checkbox {
   display: flex;
@@ -111,6 +118,7 @@
   font-size: 12px;
 }
 .signup button {
+  cursor: pointer;
   width: 100%;
   background-color: #F1B104;
   color: #FFFFFF;
@@ -139,12 +147,26 @@
   font-size: 16px;
 }
 .signup footer span {
+  cursor: pointer;
   color: #F1B104;
 }
 
 .app {
-  width: 1512px;
+  width: 100%;
   height: 982px;
   display: flex;
   flex-direction: row;
+}
+
+@media only screen and (max-width: 900px) {
+  .app {
+    display: flex;
+    flex-direction: column;
+  }
+  .headline, .signup {
+    width: 100%;
+  }
+  .signup {
+    padding: 30px;
+  }
 }/*# sourceMappingURL=index.css.map */
