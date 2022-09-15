@@ -1,0 +1,114 @@
+.signup{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: $white;
+    width: 50%;
+    .signup-headline{
+        margin-bottom: 35px;
+    }
+    .signup-title{
+        font-weight: 700;
+        font-size: 24px;
+        color: $black;
+    }
+    .signup-inputs{
+        margin-bottom: 24px;
+        .signup-name{
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 12px;
+        }
+        .signup-birthday{
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            gap: 12px;
+        }
+    }
+    .signup-sub-title{
+        font-weight: 500;
+        font-size: 16px;
+    }
+    label{
+        font-weight: 700;
+        font-size: 16px;
+        margin-bottom: 2px;
+    }
+    input, select{
+        font-weight: 500;
+        font-size: 12px;
+        padding: 14px 16px;
+        border: 1px solid rgba(200, 200, 200, 0.24);
+        border-radius: 4px;
+    }
+    .signup-email{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        .signup-phone{
+            color: $yellowOrange;
+            font-weight: 500;
+            font-size: 12px;
+        }
+    }
+    .signup-checkbox{
+        display: flex;
+        flex-direction: row;
+        .input-checkbox{
+            width: 20px;
+            height: 19px;
+            margin-right: 9px;
+            background: #FFFFFF;
+            border: 1px solid rgba(200, 200, 200, 0.24);
+            border-radius: 4px;
+        }
+    }
+    .input-email, .input-password{
+        width: 100%;
+    }
+    .signup-password{
+        position: relative;
+    }
+    .eye{
+        position: absolute;
+        right: 15px;
+        top:50%;
+        cursor: pointer;
+    }
+    .checkbox-description{
+        font-weight: 500;
+        font-size: 12px;
+    }
+    button{
+        width: 100%;
+        background-color: $yellowOrange;
+        color: $white;
+        border: none;
+        border-radius: 4px;
+        font-weight: 700;
+        font-size: 18px;
+        padding: 23px;
+        margin-top: 45px;
+        margin-bottom: 15px;
+    }
+    .signup-terms-and-condition{
+        font-weight: 500;
+        font-size: 12px;
+        line-height: 18px;
+        text-align: center;
+    }
+    hr.line{
+        border-top: 1px solid #F2F2F2;
+        margin-top: 38px;
+        margin-bottom: 17px;
+    }
+    footer{
+        text-align: center;
+        font-weight: 500;
+        font-size: 16px;
+        span{
+            color: $yellowOrange;
+        }
+    }
+}

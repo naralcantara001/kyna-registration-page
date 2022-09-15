@@ -1,0 +1,13 @@
+.headline{
+    display: flex;
+    flex-direction: column;
+    background-color: $darkBlue;
+    width: 50%;
+    padding-top: 98px;
+}
+.headline-title{
+    font-weight: 700;
+    font-size: 32px;
+    color: $white;
+    padding-left: 91px;
+}

@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,500;1,700&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'poppins', 'sans-serif';
+}
+
+// global variable colors
+$white: #FFFFFF;
+$black: #000000;
+$darkBlue: #3F4F77;
+$yellowOrange: #F1B104;
+
+//image
+.image{
+  align-self: center;
+  width: 70%;
+  margin-top: 22px;
+}
+
+// imported css file
+@import 'components/headline';
+@import 'components/signup';
+@import 'components/app';
